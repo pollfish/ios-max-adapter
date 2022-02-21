@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8074E39A27C3BB280075040A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8074E39927C3BB280075040A /* AppDelegate.m */; };
+		8074E39D27C3BB280075040A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8074E39C27C3BB280075040A /* SceneDelegate.m */; };
+		8074E3A027C3BB290075040A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8074E39F27C3BB290075040A /* ViewController.m */; };
+		8074E3A327C3BB290075040A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8074E3A127C3BB290075040A /* Main.storyboard */; };
+		8074E3A527C3BB2A0075040A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8074E3A427C3BB2A0075040A /* Assets.xcassets */; };
+		8074E3A827C3BB2A0075040A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8074E3A627C3BB2A0075040A /* LaunchScreen.storyboard */; };
+		8074E3AB27C3BB2A0075040A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8074E3AA27C3BB2A0075040A /* main.m */; };
+		ACC6D247BC13B251B8149ECB /* Pods_PollfishMaxAdapterExampleObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6ED7B0CC6B15A8D40F51D2 /* Pods_PollfishMaxAdapterExampleObjC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A6ED7B0CC6B15A8D40F51D2 /* Pods_PollfishMaxAdapterExampleObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PollfishMaxAdapterExampleObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C691B281747BA1D599A652B /* Pods-PollfishMaxAdapterExampleObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PollfishMaxAdapterExampleObjC.release.xcconfig"; path = "Target Support Files/Pods-PollfishMaxAdapterExampleObjC/Pods-PollfishMaxAdapterExampleObjC.release.xcconfig"; sourceTree = "<group>"; };
+		434FC2F7462D4012C87FC892 /* Pods-PollfishMaxAdapterExampleObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PollfishMaxAdapterExampleObjC.debug.xcconfig"; path = "Target Support Files/Pods-PollfishMaxAdapterExampleObjC/Pods-PollfishMaxAdapterExampleObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		8074E39527C3BB280075040A /* PollfishMaxAdapterExampleObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PollfishMaxAdapterExampleObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8074E39827C3BB280075040A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8074E39927C3BB280075040A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8074E39B27C3BB280075040A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8074E39C27C3BB280075040A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8074E39E27C3BB280075040A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8074E39F27C3BB290075040A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8074E3A227C3BB290075040A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8074E3A427C3BB2A0075040A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8074E3A727C3BB2A0075040A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8074E3A927C3BB2A0075040A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8074E3AA27C3BB2A0075040A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8074E39227C3BB280075040A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC6D247BC13B251B8149ECB /* Pods_PollfishMaxAdapterExampleObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		653FC0BF84254BCA9C4670C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A6ED7B0CC6B15A8D40F51D2 /* Pods_PollfishMaxAdapterExampleObjC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8074E38C27C3BB280075040A = {
+			isa = PBXGroup;
+			children = (
+				8074E39727C3BB280075040A /* PollfishMaxAdapterExampleObjC */,
+				8074E39627C3BB280075040A /* Products */,
+				AA38FED723D1A4AE5CA4945C /* Pods */,
+				653FC0BF84254BCA9C4670C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8074E39627C3BB280075040A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8074E39527C3BB280075040A /* PollfishMaxAdapterExampleObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8074E39727C3BB280075040A /* PollfishMaxAdapterExampleObjC */ = {
+			isa = PBXGroup;
+			children = (
+				8074E39827C3BB280075040A /* AppDelegate.h */,
+				8074E39927C3BB280075040A /* AppDelegate.m */,
+				8074E39B27C3BB280075040A /* SceneDelegate.h */,
+				8074E39C27C3BB280075040A /* SceneDelegate.m */,
+				8074E39E27C3BB280075040A /* ViewController.h */,
+				8074E39F27C3BB290075040A /* ViewController.m */,
+				8074E3A127C3BB290075040A /* Main.storyboard */,
+				8074E3A427C3BB2A0075040A /* Assets.xcassets */,
+				8074E3A627C3BB2A0075040A /* LaunchScreen.storyboard */,
+				8074E3A927C3BB2A0075040A /* Info.plist */,
+				8074E3AA27C3BB2A0075040A /* main.m */,
+			);
+			path = PollfishMaxAdapterExampleObjC;
+			sourceTree = "<group>";
+		};
+		AA38FED723D1A4AE5CA4945C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				434FC2F7462D4012C87FC892 /* Pods-PollfishMaxAdapterExampleObjC.debug.xcconfig */,
+				2C691B281747BA1D599A652B /* Pods-PollfishMaxAdapterExampleObjC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8074E39427C3BB280075040A /* PollfishMaxAdapterExampleObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8074E3AE27C3BB2A0075040A /* Build configuration list for PBXNativeTarget "PollfishMaxAdapterExampleObjC" */;
+			buildPhases = (
+				1B80DCC661E82F0F6050FB38 /* [CP] Check Pods Manifest.lock */,
+				8074E39127C3BB280075040A /* Sources */,
+				8074E39227C3BB280075040A /* Frameworks */,
+				8074E39327C3BB280075040A /* Resources */,
+				34B61D682FDBDD256B8847CA /* [CP] Embed Pods Frameworks */,
+				F8C7C417C2FC7C2F78FE223A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PollfishMaxAdapterExampleObjC;
+			productName = PollfishMaxAdapterExampleObjC;
+			productReference = 8074E39527C3BB280075040A /* PollfishMaxAdapterExampleObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8074E38D27C3BB280075040A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8074E39427C3BB280075040A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8074E39027C3BB280075040A /* Build configuration list for PBXProject "PollfishMaxAdapterExampleObjC" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8074E38C27C3BB280075040A;
+			productRefGroup = 8074E39627C3BB280075040A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8074E39427C3BB280075040A /* PollfishMaxAdapterExampleObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8074E39327C3BB280075040A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8074E3A827C3BB2A0075040A /* LaunchScreen.storyboard in Resources */,
+				8074E3A527C3BB2A0075040A /* Assets.xcassets in Resources */,
+				8074E3A327C3BB290075040A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B80DCC661E82F0F6050FB38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PollfishMaxAdapterExampleObjC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34B61D682FDBDD256B8847CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapterExampleObjC/Pods-PollfishMaxAdapterExampleObjC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapterExampleObjC/Pods-PollfishMaxAdapterExampleObjC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapterExampleObjC/Pods-PollfishMaxAdapterExampleObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8C7C417C2FC7C2F78FE223A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapterExampleObjC/Pods-PollfishMaxAdapterExampleObjC-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapterExampleObjC/Pods-PollfishMaxAdapterExampleObjC-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapterExampleObjC/Pods-PollfishMaxAdapterExampleObjC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8074E39127C3BB280075040A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8074E3A027C3BB290075040A /* ViewController.m in Sources */,
+				8074E39A27C3BB280075040A /* AppDelegate.m in Sources */,
+				8074E3AB27C3BB2A0075040A /* main.m in Sources */,
+				8074E39D27C3BB280075040A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8074E3A127C3BB290075040A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8074E3A227C3BB290075040A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8074E3A627C3BB2A0075040A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8074E3A727C3BB2A0075040A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8074E3AC27C3BB2A0075040A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8074E3AD27C3BB2A0075040A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8074E3AF27C3BB2A0075040A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434FC2F7462D4012C87FC892 /* Pods-PollfishMaxAdapterExampleObjC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 984ZRM32BG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PollfishMaxAdapterExampleObjC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pollfish.mediation.PollfishMaxAdapterExampleSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8074E3B027C3BB2A0075040A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C691B281747BA1D599A652B /* Pods-PollfishMaxAdapterExampleObjC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 984ZRM32BG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PollfishMaxAdapterExampleObjC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pollfish.mediation.PollfishMaxAdapterExampleSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8074E39027C3BB280075040A /* Build configuration list for PBXProject "PollfishMaxAdapterExampleObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8074E3AC27C3BB2A0075040A /* Debug */,
+				8074E3AD27C3BB2A0075040A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8074E3AE27C3BB2A0075040A /* Build configuration list for PBXNativeTarget "PollfishMaxAdapterExampleObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8074E3AF27C3BB2A0075040A /* Debug */,
+				8074E3B027C3BB2A0075040A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8074E38D27C3BB280075040A /* Project object */;
+}

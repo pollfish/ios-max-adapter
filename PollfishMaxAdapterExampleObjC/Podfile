@@ -1,0 +1,5 @@
+target 'PollfishMaxAdapterExampleObjC' do
+  use_frameworks!
+  
+  pod 'PollfishMaxAdapter', :path => '../' 
+end

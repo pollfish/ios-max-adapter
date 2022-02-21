@@ -1,0 +1,11 @@
+framework module PollfishMaxAdapter {
+  umbrella header "PollfishMaxAdapter.h"
+
+  export *
+  module * { export * }
+}
+
+module PollfishMaxAdapter.Swift {
+    header "PollfishMaxAdapter-Swift.h"
+    requires objc
+}

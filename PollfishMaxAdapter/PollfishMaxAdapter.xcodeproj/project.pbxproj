@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8010F6F227BD382900BA6C5E /* PollfishMaxAdapter Universal Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8010F6F327BD382900BA6C5E /* Build configuration list for PBXAggregateTarget "PollfishMaxAdapter Universal Framework" */;
+			buildPhases = (
+				8010F6FA27BD58BB00BA6C5E /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "PollfishMaxAdapter Universal Framework";
+			productName = "PollfishMaxAdapter Universal Framework";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		8010F6EC27BD31AA00BA6C5E /* PollfishMaxAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8010F6E927BD31AA00BA6C5E /* PollfishMaxAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8010F6F727BD3BD400BA6C5E /* PollfishMaxAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8010F6F627BD3BD400BA6C5E /* PollfishMaxAdapter.swift */; };
+		8010F6F927BD3E6800BA6C5E /* PollfishConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8010F6F827BD3E6800BA6C5E /* PollfishConstants.swift */; };
+		8074E38B27BE568B0075040A /* PollfishMaxAdapterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074E38A27BE568B0075040A /* PollfishMaxAdapterInfo.swift */; };
+		F21A9ECAF3465FF5A900CC06 /* Pods_PollfishMaxAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C745D78CC77ECB538CD17D7F /* Pods_PollfishMaxAdapter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A52D9899809DD3CBA123C0E /* Pods-PollfishMaxAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PollfishMaxAdapter.release.xcconfig"; path = "Target Support Files/Pods-PollfishMaxAdapter/Pods-PollfishMaxAdapter.release.xcconfig"; sourceTree = "<group>"; };
+		8010F6E627BD31AA00BA6C5E /* PollfishMaxAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PollfishMaxAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8010F6E927BD31AA00BA6C5E /* PollfishMaxAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PollfishMaxAdapter.h; sourceTree = "<group>"; };
+		8010F6F627BD3BD400BA6C5E /* PollfishMaxAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollfishMaxAdapter.swift; sourceTree = "<group>"; };
+		8010F6F827BD3E6800BA6C5E /* PollfishConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollfishConstants.swift; sourceTree = "<group>"; };
+		8074E38A27BE568B0075040A /* PollfishMaxAdapterInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollfishMaxAdapterInfo.swift; sourceTree = "<group>"; };
+		9B7C3E3FE7194E235908F55A /* Pods-PollfishMaxAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PollfishMaxAdapter.debug.xcconfig"; path = "Target Support Files/Pods-PollfishMaxAdapter/Pods-PollfishMaxAdapter.debug.xcconfig"; sourceTree = "<group>"; };
+		C745D78CC77ECB538CD17D7F /* Pods_PollfishMaxAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PollfishMaxAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8010F6E327BD31A900BA6C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21A9ECAF3465FF5A900CC06 /* Pods_PollfishMaxAdapter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8010F6DC27BD31A900BA6C5E = {
+			isa = PBXGroup;
+			children = (
+				8010F6E827BD31AA00BA6C5E /* PollfishMaxAdapter */,
+				8010F6E727BD31AA00BA6C5E /* Products */,
+				A01DD611DF216D874A54B7D7 /* Pods */,
+				B95F3CA94F3D318028FC07B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8010F6E727BD31AA00BA6C5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8010F6E627BD31AA00BA6C5E /* PollfishMaxAdapter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8010F6E827BD31AA00BA6C5E /* PollfishMaxAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				8010F6E927BD31AA00BA6C5E /* PollfishMaxAdapter.h */,
+				8010F6F627BD3BD400BA6C5E /* PollfishMaxAdapter.swift */,
+				8010F6F827BD3E6800BA6C5E /* PollfishConstants.swift */,
+				8074E38A27BE568B0075040A /* PollfishMaxAdapterInfo.swift */,
+			);
+			path = PollfishMaxAdapter;
+			sourceTree = "<group>";
+		};
+		A01DD611DF216D874A54B7D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B7C3E3FE7194E235908F55A /* Pods-PollfishMaxAdapter.debug.xcconfig */,
+				5A52D9899809DD3CBA123C0E /* Pods-PollfishMaxAdapter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B95F3CA94F3D318028FC07B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C745D78CC77ECB538CD17D7F /* Pods_PollfishMaxAdapter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8010F6E127BD31A900BA6C5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8010F6EC27BD31AA00BA6C5E /* PollfishMaxAdapter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8010F6E527BD31A900BA6C5E /* PollfishMaxAdapter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8010F6EF27BD31AA00BA6C5E /* Build configuration list for PBXNativeTarget "PollfishMaxAdapter" */;
+			buildPhases = (
+				D58CF85C4D3407CD5E01456D /* [CP] Check Pods Manifest.lock */,
+				8010F6E127BD31A900BA6C5E /* Headers */,
+				8010F6E227BD31A900BA6C5E /* Sources */,
+				8010F6E327BD31A900BA6C5E /* Frameworks */,
+				8010F6E427BD31A900BA6C5E /* Resources */,
+				28D4FAC2E1F35B09C42E7A99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PollfishMaxAdapter;
+			productName = PollfishMaxAdapter;
+			productReference = 8010F6E627BD31AA00BA6C5E /* PollfishMaxAdapter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8010F6DD27BD31A900BA6C5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8010F6E527BD31A900BA6C5E = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+					8010F6F227BD382900BA6C5E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8010F6E027BD31A900BA6C5E /* Build configuration list for PBXProject "PollfishMaxAdapter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8010F6DC27BD31A900BA6C5E;
+			productRefGroup = 8010F6E727BD31AA00BA6C5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8010F6E527BD31A900BA6C5E /* PollfishMaxAdapter */,
+				8010F6F227BD382900BA6C5E /* PollfishMaxAdapter Universal Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8010F6E427BD31A900BA6C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28D4FAC2E1F35B09C42E7A99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapter/Pods-PollfishMaxAdapter-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapter/Pods-PollfishMaxAdapter-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapter/Pods-PollfishMaxAdapter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8010F6FA27BD58BB00BA6C5E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "PRODUCTS_DIR=${PROJECT_DIR}/Products\nPRODUCT_NAME=PollfishMaxAdapter\nTARGET_NAME=PollfishMaxAdapter\nPROJECT_NAME=PollfishMaxAdapter\n\nrm -r ${PRODUCTS_DIR}\nrm -r ../${PRODUCT_NAME}.xcframework\n\nmkdir -p ${PRODUCTS_DIR}\n\nxcodebuild archive \\\n-workspace ${PROJECT_DIR}/${PRODUCT_NAME}.xcworkspace \\\n-scheme ${TARGET_NAME} \\\n-destination \"generic/platform=iOS Simulator\" \\\n-archivePath ${PRODUCTS_DIR}/${PRODUCT_NAME}-Sim \\\nSKIP_INSTALL=NO \\\nBUILD_LIBRARY_FOR_DISTRIBUTION=YES \\\n\nxcodebuild archive \\\n-workspace ${PROJECT_DIR}/${PRODUCT_NAME}.xcworkspace \\\n-scheme ${TARGET_NAME} \\\n-destination \"generic/platform=iOS\" \\\n-archivePath ${PRODUCTS_DIR}/${PRODUCT_NAME}-Dev \\\nSKIP_INSTALL=NO \\\nBUILD_LIBRARY_FOR_DISTRIBUTION=YES\n\nxcodebuild -create-xcframework \\\n-framework ${PRODUCTS_DIR}/${PRODUCT_NAME}-Dev.xcarchive/Products/Library/Frameworks/${PRODUCT_NAME}.framework \\\n-framework ${PRODUCTS_DIR}/${PRODUCT_NAME}-Sim.xcarchive/Products/Library/Frameworks/${PRODUCT_NAME}.framework \\\n-output ../${PRODUCT_NAME}.xcframework\n\nrm -r ${PRODUCTS_DIR}/${PRODUCT_NAME}-Dev.xcarchive\nrm -r ${PRODUCTS_DIR}/${PRODUCT_NAME}-Sim.xcarchive\n\nrm -r ${PRODUCTS_DIR}\n\ncd ../${PRODUCT_NAME}.xcframework\n\nfind . -name \"*.swiftinterface\" -exec sed -i -e 's/PollfishMaxAdapter\\.//g' {} \\;\n\nfind . -name \"*.swiftinterface\" -exec sed -i -e 's/Pollfish\\.//g' {} \\;\n";
+		};
+		D58CF85C4D3407CD5E01456D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PollfishMaxAdapter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8010F6E227BD31A900BA6C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8010F6F927BD3E6800BA6C5E /* PollfishConstants.swift in Sources */,
+				8010F6F727BD3BD400BA6C5E /* PollfishMaxAdapter.swift in Sources */,
+				8074E38B27BE568B0075040A /* PollfishMaxAdapterInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8010F6ED27BD31AA00BA6C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8010F6EE27BD31AA00BA6C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8010F6F027BD31AA00BA6C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B7C3E3FE7194E235908F55A /* Pods-PollfishMaxAdapter.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 984ZRM32BG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 6.2.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pollfish.mediation.PollfishMaxAdapter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8010F6F127BD31AA00BA6C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A52D9899809DD3CBA123C0E /* Pods-PollfishMaxAdapter.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 984ZRM32BG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 6.2.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pollfish.mediation.PollfishMaxAdapter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8010F6F427BD382900BA6C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 984ZRM32BG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8010F6F527BD382900BA6C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 984ZRM32BG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8010F6E027BD31A900BA6C5E /* Build configuration list for PBXProject "PollfishMaxAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8010F6ED27BD31AA00BA6C5E /* Debug */,
+				8010F6EE27BD31AA00BA6C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8010F6EF27BD31AA00BA6C5E /* Build configuration list for PBXNativeTarget "PollfishMaxAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8010F6F027BD31AA00BA6C5E /* Debug */,
+				8010F6F127BD31AA00BA6C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8010F6F327BD382900BA6C5E /* Build configuration list for PBXAggregateTarget "PollfishMaxAdapter Universal Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8010F6F427BD382900BA6C5E /* Debug */,
+				8010F6F527BD382900BA6C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8010F6DD27BD31A900BA6C5E /* Project object */;
+}

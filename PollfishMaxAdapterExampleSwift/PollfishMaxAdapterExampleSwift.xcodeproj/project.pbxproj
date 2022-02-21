@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AB74723A984A875B98C8D99 /* Pods_PollfishMaxAdapterExampleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFF4D64F50045A6858EA467 /* Pods_PollfishMaxAdapterExampleSwift.framework */; };
+		8010F70827BD5A6F00BA6C5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8010F70727BD5A6F00BA6C5E /* AppDelegate.swift */; };
+		8010F70A27BD5A6F00BA6C5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8010F70927BD5A6F00BA6C5E /* SceneDelegate.swift */; };
+		8010F70C27BD5A6F00BA6C5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8010F70B27BD5A6F00BA6C5E /* ViewController.swift */; };
+		8010F70F27BD5A6F00BA6C5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8010F70D27BD5A6F00BA6C5E /* Main.storyboard */; };
+		8010F71127BD5A7100BA6C5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8010F71027BD5A7100BA6C5E /* Assets.xcassets */; };
+		8010F71427BD5A7100BA6C5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8010F71227BD5A7100BA6C5E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5EFF4D64F50045A6858EA467 /* Pods_PollfishMaxAdapterExampleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PollfishMaxAdapterExampleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE4764BBBCAA104D5D79B9C /* Pods-PollfishMaxAdapterExampleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PollfishMaxAdapterExampleSwift.debug.xcconfig"; path = "Target Support Files/Pods-PollfishMaxAdapterExampleSwift/Pods-PollfishMaxAdapterExampleSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		8010F70427BD5A6F00BA6C5E /* PollfishMaxAdapterExampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PollfishMaxAdapterExampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8010F70727BD5A6F00BA6C5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8010F70927BD5A6F00BA6C5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8010F70B27BD5A6F00BA6C5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8010F70E27BD5A6F00BA6C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8010F71027BD5A7100BA6C5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8010F71327BD5A7100BA6C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8010F71527BD5A7100BA6C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9242AF36D168B8DB1777719 /* Pods-PollfishMaxAdapterExampleSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PollfishMaxAdapterExampleSwift.release.xcconfig"; path = "Target Support Files/Pods-PollfishMaxAdapterExampleSwift/Pods-PollfishMaxAdapterExampleSwift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8010F70127BD5A6F00BA6C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB74723A984A875B98C8D99 /* Pods_PollfishMaxAdapterExampleSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4885A77B06BBB4F2F9618D9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BE4764BBBCAA104D5D79B9C /* Pods-PollfishMaxAdapterExampleSwift.debug.xcconfig */,
+				F9242AF36D168B8DB1777719 /* Pods-PollfishMaxAdapterExampleSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7D81B7B3B1D33920DF877E89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EFF4D64F50045A6858EA467 /* Pods_PollfishMaxAdapterExampleSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8010F6FB27BD5A6F00BA6C5E = {
+			isa = PBXGroup;
+			children = (
+				8010F70627BD5A6F00BA6C5E /* PollfishMaxAdapterExampleSwift */,
+				8010F70527BD5A6F00BA6C5E /* Products */,
+				4885A77B06BBB4F2F9618D9C /* Pods */,
+				7D81B7B3B1D33920DF877E89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8010F70527BD5A6F00BA6C5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8010F70427BD5A6F00BA6C5E /* PollfishMaxAdapterExampleSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8010F70627BD5A6F00BA6C5E /* PollfishMaxAdapterExampleSwift */ = {
+			isa = PBXGroup;
+			children = (
+				8010F70727BD5A6F00BA6C5E /* AppDelegate.swift */,
+				8010F70927BD5A6F00BA6C5E /* SceneDelegate.swift */,
+				8010F70B27BD5A6F00BA6C5E /* ViewController.swift */,
+				8010F70D27BD5A6F00BA6C5E /* Main.storyboard */,
+				8010F71027BD5A7100BA6C5E /* Assets.xcassets */,
+				8010F71227BD5A7100BA6C5E /* LaunchScreen.storyboard */,
+				8010F71527BD5A7100BA6C5E /* Info.plist */,
+			);
+			path = PollfishMaxAdapterExampleSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8010F70327BD5A6F00BA6C5E /* PollfishMaxAdapterExampleSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8010F71827BD5A7100BA6C5E /* Build configuration list for PBXNativeTarget "PollfishMaxAdapterExampleSwift" */;
+			buildPhases = (
+				57FEED65C450D4244932EDFE /* [CP] Check Pods Manifest.lock */,
+				8010F70027BD5A6F00BA6C5E /* Sources */,
+				8010F70127BD5A6F00BA6C5E /* Frameworks */,
+				8010F70227BD5A6F00BA6C5E /* Resources */,
+				2A505F8870A3A09A883FBD77 /* [CP] Embed Pods Frameworks */,
+				BBDF3AE2F16455182689940F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PollfishMaxAdapterExampleSwift;
+			productName = PollfishMaxAdapterExampleSwift;
+			productReference = 8010F70427BD5A6F00BA6C5E /* PollfishMaxAdapterExampleSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8010F6FC27BD5A6F00BA6C5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8010F70327BD5A6F00BA6C5E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8010F6FF27BD5A6F00BA6C5E /* Build configuration list for PBXProject "PollfishMaxAdapterExampleSwift" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8010F6FB27BD5A6F00BA6C5E;
+			productRefGroup = 8010F70527BD5A6F00BA6C5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8010F70327BD5A6F00BA6C5E /* PollfishMaxAdapterExampleSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8010F70227BD5A6F00BA6C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8010F71427BD5A7100BA6C5E /* LaunchScreen.storyboard in Resources */,
+				8010F71127BD5A7100BA6C5E /* Assets.xcassets in Resources */,
+				8010F70F27BD5A6F00BA6C5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A505F8870A3A09A883FBD77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapterExampleSwift/Pods-PollfishMaxAdapterExampleSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapterExampleSwift/Pods-PollfishMaxAdapterExampleSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapterExampleSwift/Pods-PollfishMaxAdapterExampleSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57FEED65C450D4244932EDFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PollfishMaxAdapterExampleSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBDF3AE2F16455182689940F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapterExampleSwift/Pods-PollfishMaxAdapterExampleSwift-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapterExampleSwift/Pods-PollfishMaxAdapterExampleSwift-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapterExampleSwift/Pods-PollfishMaxAdapterExampleSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8010F70027BD5A6F00BA6C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8010F70C27BD5A6F00BA6C5E /* ViewController.swift in Sources */,
+				8010F70827BD5A6F00BA6C5E /* AppDelegate.swift in Sources */,
+				8010F70A27BD5A6F00BA6C5E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8010F70D27BD5A6F00BA6C5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8010F70E27BD5A6F00BA6C5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8010F71227BD5A7100BA6C5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8010F71327BD5A7100BA6C5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8010F71627BD5A7100BA6C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8010F71727BD5A7100BA6C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8010F71927BD5A7100BA6C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE4764BBBCAA104D5D79B9C /* Pods-PollfishMaxAdapterExampleSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 984ZRM32BG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PollfishMaxAdapterExampleSwift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pollfish.mediation.PollfishMaxAdapterExampleSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8010F71A27BD5A7100BA6C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9242AF36D168B8DB1777719 /* Pods-PollfishMaxAdapterExampleSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 984ZRM32BG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PollfishMaxAdapterExampleSwift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pollfish.mediation.PollfishMaxAdapterExampleSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8010F6FF27BD5A6F00BA6C5E /* Build configuration list for PBXProject "PollfishMaxAdapterExampleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8010F71627BD5A7100BA6C5E /* Debug */,
+				8010F71727BD5A7100BA6C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8010F71827BD5A7100BA6C5E /* Build configuration list for PBXNativeTarget "PollfishMaxAdapterExampleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8010F71927BD5A7100BA6C5E /* Debug */,
+				8010F71A27BD5A7100BA6C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8010F6FC27BD5A6F00BA6C5E /* Project object */;
+}
