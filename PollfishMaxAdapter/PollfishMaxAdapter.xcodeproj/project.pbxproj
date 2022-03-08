@@ -22,21 +22,17 @@
 
 /* Begin PBXBuildFile section */
 		8010F6EC27BD31AA00BA6C5E /* PollfishMaxAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8010F6E927BD31AA00BA6C5E /* PollfishMaxAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8010F6F727BD3BD400BA6C5E /* PollfishMaxAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8010F6F627BD3BD400BA6C5E /* PollfishMaxAdapter.swift */; };
+		8010F6F727BD3BD400BA6C5E /* PollfishMediationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8010F6F627BD3BD400BA6C5E /* PollfishMediationAdapter.swift */; };
 		8010F6F927BD3E6800BA6C5E /* PollfishConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8010F6F827BD3E6800BA6C5E /* PollfishConstants.swift */; };
 		8074E38B27BE568B0075040A /* PollfishMaxAdapterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074E38A27BE568B0075040A /* PollfishMaxAdapterInfo.swift */; };
-		F21A9ECAF3465FF5A900CC06 /* Pods_PollfishMaxAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C745D78CC77ECB538CD17D7F /* Pods_PollfishMaxAdapter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A52D9899809DD3CBA123C0E /* Pods-PollfishMaxAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PollfishMaxAdapter.release.xcconfig"; path = "Target Support Files/Pods-PollfishMaxAdapter/Pods-PollfishMaxAdapter.release.xcconfig"; sourceTree = "<group>"; };
 		8010F6E627BD31AA00BA6C5E /* PollfishMaxAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PollfishMaxAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8010F6E927BD31AA00BA6C5E /* PollfishMaxAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PollfishMaxAdapter.h; sourceTree = "<group>"; };
-		8010F6F627BD3BD400BA6C5E /* PollfishMaxAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollfishMaxAdapter.swift; sourceTree = "<group>"; };
+		8010F6F627BD3BD400BA6C5E /* PollfishMediationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollfishMediationAdapter.swift; sourceTree = "<group>"; };
 		8010F6F827BD3E6800BA6C5E /* PollfishConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollfishConstants.swift; sourceTree = "<group>"; };
 		8074E38A27BE568B0075040A /* PollfishMaxAdapterInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollfishMaxAdapterInfo.swift; sourceTree = "<group>"; };
-		9B7C3E3FE7194E235908F55A /* Pods-PollfishMaxAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PollfishMaxAdapter.debug.xcconfig"; path = "Target Support Files/Pods-PollfishMaxAdapter/Pods-PollfishMaxAdapter.debug.xcconfig"; sourceTree = "<group>"; };
-		C745D78CC77ECB538CD17D7F /* Pods_PollfishMaxAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PollfishMaxAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +40,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F21A9ECAF3465FF5A900CC06 /* Pods_PollfishMaxAdapter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +52,6 @@
 				8010F6E827BD31AA00BA6C5E /* PollfishMaxAdapter */,
 				8010F6E727BD31AA00BA6C5E /* Products */,
 				A01DD611DF216D874A54B7D7 /* Pods */,
-				B95F3CA94F3D318028FC07B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,7 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				8010F6E927BD31AA00BA6C5E /* PollfishMaxAdapter.h */,
-				8010F6F627BD3BD400BA6C5E /* PollfishMaxAdapter.swift */,
+				8010F6F627BD3BD400BA6C5E /* PollfishMediationAdapter.swift */,
 				8010F6F827BD3E6800BA6C5E /* PollfishConstants.swift */,
 				8074E38A27BE568B0075040A /* PollfishMaxAdapterInfo.swift */,
 			);
@@ -83,18 +77,8 @@
 		A01DD611DF216D874A54B7D7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9B7C3E3FE7194E235908F55A /* Pods-PollfishMaxAdapter.debug.xcconfig */,
-				5A52D9899809DD3CBA123C0E /* Pods-PollfishMaxAdapter.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		B95F3CA94F3D318028FC07B2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C745D78CC77ECB538CD17D7F /* Pods_PollfishMaxAdapter.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,12 +99,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8010F6EF27BD31AA00BA6C5E /* Build configuration list for PBXNativeTarget "PollfishMaxAdapter" */;
 			buildPhases = (
-				D58CF85C4D3407CD5E01456D /* [CP] Check Pods Manifest.lock */,
 				8010F6E127BD31A900BA6C5E /* Headers */,
 				8010F6E227BD31A900BA6C5E /* Sources */,
 				8010F6E327BD31A900BA6C5E /* Frameworks */,
 				8010F6E427BD31A900BA6C5E /* Resources */,
-				28D4FAC2E1F35B09C42E7A99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,23 +161,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		28D4FAC2E1F35B09C42E7A99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapter/Pods-PollfishMaxAdapter-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapter/Pods-PollfishMaxAdapter-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapter/Pods-PollfishMaxAdapter-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8010F6FA27BD58BB00BA6C5E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -213,28 +178,6 @@
 			shellPath = /bin/sh;
 			shellScript = "PRODUCTS_DIR=${PROJECT_DIR}/Products\nPRODUCT_NAME=PollfishMaxAdapter\nTARGET_NAME=PollfishMaxAdapter\nPROJECT_NAME=PollfishMaxAdapter\n\nrm -r ${PRODUCTS_DIR}\nrm -r ../${PRODUCT_NAME}.xcframework\n\nmkdir -p ${PRODUCTS_DIR}\n\nxcodebuild archive \\\n-workspace ${PROJECT_DIR}/${PRODUCT_NAME}.xcworkspace \\\n-scheme ${TARGET_NAME} \\\n-destination \"generic/platform=iOS Simulator\" \\\n-archivePath ${PRODUCTS_DIR}/${PRODUCT_NAME}-Sim \\\nSKIP_INSTALL=NO \\\nBUILD_LIBRARY_FOR_DISTRIBUTION=YES \\\n\nxcodebuild archive \\\n-workspace ${PROJECT_DIR}/${PRODUCT_NAME}.xcworkspace \\\n-scheme ${TARGET_NAME} \\\n-destination \"generic/platform=iOS\" \\\n-archivePath ${PRODUCTS_DIR}/${PRODUCT_NAME}-Dev \\\nSKIP_INSTALL=NO \\\nBUILD_LIBRARY_FOR_DISTRIBUTION=YES\n\nxcodebuild -create-xcframework \\\n-framework ${PRODUCTS_DIR}/${PRODUCT_NAME}-Dev.xcarchive/Products/Library/Frameworks/${PRODUCT_NAME}.framework \\\n-framework ${PRODUCTS_DIR}/${PRODUCT_NAME}-Sim.xcarchive/Products/Library/Frameworks/${PRODUCT_NAME}.framework \\\n-output ../${PRODUCT_NAME}.xcframework\n\nrm -r ${PRODUCTS_DIR}/${PRODUCT_NAME}-Dev.xcarchive\nrm -r ${PRODUCTS_DIR}/${PRODUCT_NAME}-Sim.xcarchive\n\nrm -r ${PRODUCTS_DIR}\n\ncd ../${PRODUCT_NAME}.xcframework\n\nfind . -name \"*.swiftinterface\" -exec sed -i -e 's/PollfishMaxAdapter\\.//g' {} \\;\n\nfind . -name \"*.swiftinterface\" -exec sed -i -e 's/Pollfish\\.//g' {} \\;\n";
 		};
-		D58CF85C4D3407CD5E01456D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PollfishMaxAdapter-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -243,7 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8010F6F927BD3E6800BA6C5E /* PollfishConstants.swift in Sources */,
-				8010F6F727BD3BD400BA6C5E /* PollfishMaxAdapter.swift in Sources */,
+				8010F6F727BD3BD400BA6C5E /* PollfishMediationAdapter.swift in Sources */,
 				8074E38B27BE568B0075040A /* PollfishMaxAdapterInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,7 +318,6 @@
 		};
 		8010F6F027BD31AA00BA6C5E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B7C3E3FE7194E235908F55A /* Pods-PollfishMaxAdapter.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -396,7 +338,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 6.2.3.0;
+				MARKETING_VERSION = 6.2.4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pollfish.mediation.PollfishMaxAdapter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = NO;
@@ -410,7 +352,6 @@
 		};
 		8010F6F127BD31AA00BA6C5E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A52D9899809DD3CBA123C0E /* Pods-PollfishMaxAdapter.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -431,7 +372,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 6.2.3.0;
+				MARKETING_VERSION = 6.2.4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pollfish.mediation.PollfishMaxAdapter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = NO;

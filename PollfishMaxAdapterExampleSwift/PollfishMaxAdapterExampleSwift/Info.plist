@@ -2,8 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>Ads</string>
 	<key>AppLovinSdkKey</key>
-	<string>py7rcvmwEtNKRFhdA-C8ZCyMS3Akk8zBAA7Tph4TWJniQhcCA-P_Mnbxqsg6-kQ1MWwLrFemhxn3L_tP74kFuX</string>
+	<string>YOUR_SDK_KEY</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

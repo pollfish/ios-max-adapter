@@ -6,27 +6,39 @@
 //
 
 import UIKit
+import AdSupport
 import AppLovinSDK
+import AppTrackingTransparency
 
 class ViewController: UIViewController, MARewardedAdDelegate {
+    let adUnitId = "YOUR_AD_UNIT"
+    
     var rewardedAd: MARewardedAd!
     var retryAttempt = 0.0
+    
     @IBOutlet weak var showRewardedAdButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        createRewardedAd()
+        ATTrackingManager.requestTrackingAuthorization { status in
+            self.createRewardedAd()
+        }
     }
     
     func createRewardedAd() {
-        rewardedAd = MARewardedAd.shared(withAdUnitIdentifier: "6dc1b98ea631ba6a")
-//        rewardedAd.setLocalExtraParameterForKey("release_mode", value: true)
-//        rewardedAd.setLocalExtraParameterForKey("offerwall_mode", value: true)
-//        rewardedAd.setLocalExtraParameterForKey("request_uuid", value: "REQUEST_UUID")
-//        rewardedAd.setLocalExtraParameterForKey("api_key", value: "YOUR_API_KEY")
+        rewardedAd = MARewardedAd.shared(withAdUnitIdentifier: adUnitId)
+        
+        // Optional parameters, if have already been set in the AppLovin dashboard
+        // In case you've already set them in the Dashboard, params in code will override the ones you've already set
+        rewardedAd.setLocalExtraParameterForKey("release_mode", value: false)
+        rewardedAd.setLocalExtraParameterForKey("offerwall_mode", value: true)
+        rewardedAd.setLocalExtraParameterForKey("request_uuid", value: "REQUEST_UUID")
+        rewardedAd.setLocalExtraParameterForKey("api_key", value: "YOUR_API_KEY")
+        
         rewardedAd.delegate = self
         rewardedAd.load()
         showRewardedAdButton.isEnabled = false
+        print(ASIdentifierManager.shared().advertisingIdentifier.uuidString)
     }
 
     @IBAction func onRewardedAdClick(_ sender: Any) {
@@ -66,7 +78,9 @@ class ViewController: UIViewController, MARewardedAdDelegate {
 
     func didCompleteRewardedVideo(for ad: MAAd) {}
 
-    func didRewardUser(for ad: MAAd, with reward: MAReward) {}
+    func didRewardUser(for ad: MAAd, with reward: MAReward) {
+        print("Reward received: \(reward.amount) \(reward.label)")
+    }
 
 }
 

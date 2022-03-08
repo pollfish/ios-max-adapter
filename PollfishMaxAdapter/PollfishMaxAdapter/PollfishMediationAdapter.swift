@@ -29,6 +29,10 @@ public class PollfishMediationAdapter: ALMediationAdapter, MARewardedAdapter {
         
     }
     
+    public override init(sdk: ALSdk) {
+        super.init(sdk: sdk)
+    }
+    
     public func loadRewardedAd(for parameters: MAAdapterResponseParameters, andNotify delegate: MARewardedAdapterDelegate) {
         self.delegate = delegate
         
@@ -43,12 +47,12 @@ public class PollfishMediationAdapter: ALMediationAdapter, MARewardedAdapter {
             return
         }
         
-        guard let adapterInfo = PollfishMaxAdapterInfo(remoteParams: parameters.serverParameters, localParams: parameters.localExtraParameters) else {
+        guard let adapterInfo = PollfishMaxAdapterInfo(parameters) else {
             self.delegate?.didFailToLoadRewardedAdWithError(MAAdapterError.unspecified)
             return
         }
         
-        let params = PollfishParams(adapterInfo.apiKey)
+        let params = PollfishParams(adapterInfo.apiKey).rewardMode(true)
             
         if let releaseMode = adapterInfo.releaseMode {
             params.releaseMode(releaseMode)
@@ -62,7 +66,7 @@ public class PollfishMediationAdapter: ALMediationAdapter, MARewardedAdapter {
             params.requestUUID(requestUUID)
         }
         
-        params.platform(Platform.adMob) // TODO: Change to max
+        params.platform(Platform.max)
         
         Pollfish.initWith(params, delegate: self)
     }

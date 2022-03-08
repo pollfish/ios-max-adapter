@@ -208,20 +208,20 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 @class NSString;
+@class ALSdk;
 @protocol MAAdapterResponseParameters;
 @protocol MARewardedAdapterDelegate;
 @protocol MAAdapterInitializationParameters;
-@class ALSdk;
 
 SWIFT_CLASS_NAMED("PollfishMediationAdapter")
 @interface PollfishMediationAdapter : ALMediationAdapter <MARewardedAdapter>
 @property (nonatomic, readonly, copy) NSString * _Nonnull adapterVersion;
 @property (nonatomic, readonly, copy) NSString * _Nonnull SDKVersion;
 - (void)destroy;
+- (nonnull instancetype)initWithSdk:(ALSdk * _Nonnull)sdk OBJC_DESIGNATED_INITIALIZER;
 - (void)loadRewardedAdForParameters:(id <MAAdapterResponseParameters> _Nonnull)parameters andNotify:(id <MARewardedAdapterDelegate> _Nonnull)delegate;
 - (void)showRewardedAdForParameters:(id <MAAdapterResponseParameters> _Nonnull)parameters andNotify:(id <MARewardedAdapterDelegate> _Nonnull)delegate;
 - (void)initializeWithParameters:(id <MAAdapterInitializationParameters> _Nonnull)parameters completionHandler:(void (^ _Nonnull)(MAAdapterInitializationStatus, NSString * _Nullable))completionHandler;
-- (nonnull instancetype)initWithSdk:(ALSdk * _Nonnull)sdk OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class SurveyInfo;

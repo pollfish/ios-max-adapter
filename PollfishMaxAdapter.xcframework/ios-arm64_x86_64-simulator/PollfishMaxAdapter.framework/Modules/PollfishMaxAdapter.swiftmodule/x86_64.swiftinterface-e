@@ -15,10 +15,10 @@ import _Concurrency
     @objc get
   }
   @objc override dynamic public func destroy()
+  @objc override dynamic public init(sdk: AppLovinSDK.ALSdk)
   @objc public func loadRewardedAd(for parameters: AppLovinSDK.MAAdapterResponseParameters, andNotify delegate: AppLovinSDK.MARewardedAdapterDelegate)
   @objc public func showRewardedAd(for parameters: AppLovinSDK.MAAdapterResponseParameters, andNotify delegate: AppLovinSDK.MARewardedAdapterDelegate)
   @objc override dynamic public func initialize(with parameters: AppLovinSDK.MAAdapterInitializationParameters, completionHandler: @escaping (AppLovinSDK.MAAdapterInitializationStatus, Swift.String?) -> Swift.Void)
-  @objc override dynamic public init(sdk: AppLovinSDK.ALSdk)
   @objc deinit
 }
 extension PollfishMediationAdapter : Pollfish.PollfishDelegate {
