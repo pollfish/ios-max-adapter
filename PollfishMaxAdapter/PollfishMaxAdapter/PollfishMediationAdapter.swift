@@ -36,7 +36,7 @@ public class PollfishMediationAdapter: ALMediationAdapter, MARewardedAdapter {
     public func loadRewardedAd(for parameters: MAAdapterResponseParameters, andNotify delegate: MARewardedAdapterDelegate) {
         self.delegate = delegate
         
-        if (Pollfish.isPollfishPresent()) {
+        if (Pollfish.isPollfishPanelOpen()) {
             
             self.delegate?.didFailToLoadRewardedAdWithError(MAAdapterError.unspecified)
             return

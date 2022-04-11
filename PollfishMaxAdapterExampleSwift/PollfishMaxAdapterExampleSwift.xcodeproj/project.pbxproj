@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6AB74723A984A875B98C8D99 /* Pods_PollfishMaxAdapterExampleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFF4D64F50045A6858EA467 /* Pods_PollfishMaxAdapterExampleSwift.framework */; };
 		8010F70827BD5A6F00BA6C5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8010F70727BD5A6F00BA6C5E /* AppDelegate.swift */; };
 		8010F70A27BD5A6F00BA6C5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8010F70927BD5A6F00BA6C5E /* SceneDelegate.swift */; };
 		8010F70C27BD5A6F00BA6C5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8010F70B27BD5A6F00BA6C5E /* ViewController.swift */; };
@@ -17,8 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5EFF4D64F50045A6858EA467 /* Pods_PollfishMaxAdapterExampleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PollfishMaxAdapterExampleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BE4764BBBCAA104D5D79B9C /* Pods-PollfishMaxAdapterExampleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PollfishMaxAdapterExampleSwift.debug.xcconfig"; path = "Target Support Files/Pods-PollfishMaxAdapterExampleSwift/Pods-PollfishMaxAdapterExampleSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		8010F70427BD5A6F00BA6C5E /* PollfishMaxAdapterExampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PollfishMaxAdapterExampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8010F70727BD5A6F00BA6C5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8010F70927BD5A6F00BA6C5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +24,6 @@
 		8010F71027BD5A7100BA6C5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8010F71327BD5A7100BA6C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8010F71527BD5A7100BA6C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9242AF36D168B8DB1777719 /* Pods-PollfishMaxAdapterExampleSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PollfishMaxAdapterExampleSwift.release.xcconfig"; path = "Target Support Files/Pods-PollfishMaxAdapterExampleSwift/Pods-PollfishMaxAdapterExampleSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +31,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AB74723A984A875B98C8D99 /* Pods_PollfishMaxAdapterExampleSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,18 +40,8 @@
 		4885A77B06BBB4F2F9618D9C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6BE4764BBBCAA104D5D79B9C /* Pods-PollfishMaxAdapterExampleSwift.debug.xcconfig */,
-				F9242AF36D168B8DB1777719 /* Pods-PollfishMaxAdapterExampleSwift.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		7D81B7B3B1D33920DF877E89 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5EFF4D64F50045A6858EA467 /* Pods_PollfishMaxAdapterExampleSwift.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		8010F6FB27BD5A6F00BA6C5E = {
@@ -65,7 +50,6 @@
 				8010F70627BD5A6F00BA6C5E /* PollfishMaxAdapterExampleSwift */,
 				8010F70527BD5A6F00BA6C5E /* Products */,
 				4885A77B06BBB4F2F9618D9C /* Pods */,
-				7D81B7B3B1D33920DF877E89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,12 +82,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8010F71827BD5A7100BA6C5E /* Build configuration list for PBXNativeTarget "PollfishMaxAdapterExampleSwift" */;
 			buildPhases = (
-				57FEED65C450D4244932EDFE /* [CP] Check Pods Manifest.lock */,
 				8010F70027BD5A6F00BA6C5E /* Sources */,
 				8010F70127BD5A6F00BA6C5E /* Frameworks */,
 				8010F70227BD5A6F00BA6C5E /* Resources */,
-				2A505F8870A3A09A883FBD77 /* [CP] Embed Pods Frameworks */,
-				BBDF3AE2F16455182689940F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,65 +140,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		2A505F8870A3A09A883FBD77 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapterExampleSwift/Pods-PollfishMaxAdapterExampleSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapterExampleSwift/Pods-PollfishMaxAdapterExampleSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapterExampleSwift/Pods-PollfishMaxAdapterExampleSwift-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		57FEED65C450D4244932EDFE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PollfishMaxAdapterExampleSwift-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BBDF3AE2F16455182689940F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapterExampleSwift/Pods-PollfishMaxAdapterExampleSwift-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapterExampleSwift/Pods-PollfishMaxAdapterExampleSwift-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PollfishMaxAdapterExampleSwift/Pods-PollfishMaxAdapterExampleSwift-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8010F70027BD5A6F00BA6C5E /* Sources */ = {
@@ -370,7 +292,6 @@
 		};
 		8010F71927BD5A7100BA6C5E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BE4764BBBCAA104D5D79B9C /* Pods-PollfishMaxAdapterExampleSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -399,7 +320,6 @@
 		};
 		8010F71A27BD5A7100BA6C5E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9242AF36D168B8DB1777719 /* Pods-PollfishMaxAdapterExampleSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

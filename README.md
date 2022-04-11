@@ -93,7 +93,7 @@ Implement `MARewardedAdDelegate` so that you are notified when your ad is ready 
 
 <br/>
 
-Request a RewardedAd from AppLovin by calling `load` in the `MARewardedAd` object instance you've created. By default Pollfish Max Adapter will use the configuration as provided on AppLovin's dashboard (step 2). If no configuration is provided or if you want to override any of those params please see step 6.
+Request a RewardedAd from AppLovin by calling `load` in the `MARewardedAd` object instance you've created. By default Pollfish Max Adapter will use the configuration as provided on AppLovin's dashboard. If no configuration is provided or if you want to override any of those params please see step 3.
 
 <br/>
 
@@ -176,7 +176,7 @@ class ViewController: UIViewController, MARewardedAdDelegate {
 @end
 ```
 
-When the Rewarded Ad is ready, present the ad by invoking `rewardedAd.show()`. Just to be sure, you can combine show with a check to see if the Ad you are about to show is actualy ready.
+When the Rewarded Ad is ready, present the ad by invoking `rewardedAd.show()`. Just to be sure, you can combine show with a check to see if the Ad you are about to show is actually ready.
 
 <span style="text-decoration:underline">Swift</span>
 
@@ -197,7 +197,7 @@ if ( [self.rewardedAd isReady] )
 
 <br/>
 
-## Step 3: Use and control Pollfish Max Adapter in your Rewarded Ad Unit
+## Step 3: Use and control Pollfish Max Adapter in your Rewarded Ad Unit (Optional)
 
 Pollfish Max Adapter provides different options that you can use to control the behaviour of Pollfish SDK. This configuration, if applied, will override any configuration done in AppLovin's dashboard.
 
@@ -213,20 +213,20 @@ rewardedAd.setLocalExtraParameterForKey("api_key", value: "YOUR_API_KEY")
 
 | No  | Description                                                                                                                                      |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 6.1 | **`api_key`** <br/> Sets Pollfish SDK API key as provided by Pollfish                                                                            |
-| 6.2 | **`request_uuid`** <br/> Sets a unique identifier to identify a user and be passed through to [s2s callbacks](https://www.pollfish.com/docs/s2s) |
-| 6.3 | **`release_mode`** <br/> Toggles Pollfish SDK Developer or Release mode                                                                          |
-| 6.4 | **`offerwallMode`** <br/> Sets Pollfish SDK to Offerwall Mode                                                                                    |
+| 3.1 | **`api_key`** <br/> Sets Pollfish SDK API key as provided by Pollfish                                                                            |
+| 3.2 | **`request_uuid`** <br/> Sets a unique identifier to identify a user and be passed through to [s2s callbacks](https://www.pollfish.com/docs/s2s) |
+| 3.3 | **`release_mode`** <br/> Toggles Pollfish SDK Developer or Release mode                                                                          |
+| 3.4 | **`offerwallMode`** <br/> Sets Pollfish SDK to Offerwall Mode                                                                                    |
 
 <br/>
 
-### 6.1 `api_key`
+### 3.1 `api_key`
 
 Pollfish API Key as provided by Pollfish on [Pollfish Dashboard](https://www.pollfish.com/publisher/) after you sign in and create an app. If you have already specified Pollfish API Key on AppLovin's UI, this param will override the one defined on Web UI.
 
 <br/>
 
-### 6.2 `request_uuid`
+### 3.2 `request_uuid`
 
 Sets a unique id to identify a user and be passed through s2s callbacks upon survey completion.
 
@@ -236,7 +236,7 @@ If you would like to read more on Pollfish s2s callbacks you can read the docume
 
 <br/>
 
-### 6.3 `release_mode`
+### 3.3 `release_mode`
 
 Sets Pollfish SDK to Developer or Release mode.
 
@@ -247,7 +247,7 @@ Pollfish Max Adapter runs Pollfish SDK in release mode by default. If you would 
 
 <br/>
 
-### 6.4 `offerwall_mode`
+### 3.4 `offerwall_mode`
 
 Enables offerwall mode. If not set, one single survey is shown each time.
 
