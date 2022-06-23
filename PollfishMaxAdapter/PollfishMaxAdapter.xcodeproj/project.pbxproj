@@ -21,10 +21,10 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		8010F6EC27BD31AA00BA6C5E /* PollfishMaxAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8010F6E927BD31AA00BA6C5E /* PollfishMaxAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8010F6F727BD3BD400BA6C5E /* PollfishMediationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8010F6F627BD3BD400BA6C5E /* PollfishMediationAdapter.swift */; };
 		8010F6F927BD3E6800BA6C5E /* PollfishConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8010F6F827BD3E6800BA6C5E /* PollfishConstants.swift */; };
 		8074E38B27BE568B0075040A /* PollfishMaxAdapterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074E38A27BE568B0075040A /* PollfishMaxAdapterInfo.swift */; };
+		80E6B00A286482A0005937C0 /* PollfishMaxAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8010F6E927BD31AA00BA6C5E /* PollfishMaxAdapter.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,7 +88,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8010F6EC27BD31AA00BA6C5E /* PollfishMaxAdapter.h in Headers */,
+				80E6B00A286482A0005937C0 /* PollfishMaxAdapter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +120,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					8010F6E527BD31A900BA6C5E = {
@@ -322,7 +323,7 @@
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 984ZRM32BG;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -331,14 +332,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 6.2.5.0;
+				MARKETING_VERSION = 6.2.5.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pollfish.mediation.PollfishMaxAdapter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = NO;
@@ -356,7 +357,7 @@
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 984ZRM32BG;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -365,14 +366,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 6.2.5.0;
+				MARKETING_VERSION = 6.2.5.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pollfish.mediation.PollfishMaxAdapter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = NO;

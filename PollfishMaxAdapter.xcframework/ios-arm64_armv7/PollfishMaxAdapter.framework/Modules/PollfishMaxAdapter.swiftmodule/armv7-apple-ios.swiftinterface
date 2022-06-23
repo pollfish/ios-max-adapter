@@ -1,0 +1,31 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-module-flags: -target armv7-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PollfishMaxAdapter
+import AppLovinSDK
+import Foundation
+import Pollfish
+import Swift
+import _Concurrency
+@_inheritsConvenienceInitializers @objc(PollfishMediationAdapter) public class PollfishMediationAdapter : AppLovinSDK.ALMediationAdapter, AppLovinSDK.MARewardedAdapter {
+  @objc override dynamic public var adapterVersion: Swift.String {
+    @objc get
+  }
+  @objc override dynamic public var sdkVersion: Swift.String {
+    @objc get
+  }
+  @objc override dynamic public func destroy()
+  @objc override dynamic public init(sdk: AppLovinSDK.ALSdk)
+  @objc public func loadRewardedAd(for parameters: AppLovinSDK.MAAdapterResponseParameters, andNotify delegate: AppLovinSDK.MARewardedAdapterDelegate)
+  @objc public func showRewardedAd(for parameters: AppLovinSDK.MAAdapterResponseParameters, andNotify delegate: AppLovinSDK.MARewardedAdapterDelegate)
+  @objc override dynamic public func initialize(with parameters: AppLovinSDK.MAAdapterInitializationParameters, completionHandler: @escaping (AppLovinSDK.MAAdapterInitializationStatus, Swift.String?) -> Swift.Void)
+  @objc deinit
+}
+extension PollfishMediationAdapter : PollfishDelegate {
+  @objc dynamic public func pollfishClosed()
+  @objc dynamic public func pollfishOpened()
+  @objc dynamic public func pollfishUserNotEligible()
+  @objc dynamic public func pollfishSurveyNotAvailable()
+  @objc dynamic public func pollfishUserRejectedSurvey()
+  @objc dynamic public func pollfishSurveyCompleted(surveyInfo: SurveyInfo)
+  @objc dynamic public func pollfishSurveyReceived(surveyInfo: SurveyInfo?)
+}

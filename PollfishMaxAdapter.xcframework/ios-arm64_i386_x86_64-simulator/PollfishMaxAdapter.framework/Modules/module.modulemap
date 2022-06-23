@@ -1,0 +1,4 @@
+framework module PollfishMaxAdapter {
+  header "PollfishMaxAdapter-Swift.h"
+  requires objc
+}
