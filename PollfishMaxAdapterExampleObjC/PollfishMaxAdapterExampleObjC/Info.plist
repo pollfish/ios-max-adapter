@@ -5,7 +5,7 @@
 	<key>AppLovinSdkKey</key>
 	<string>YOUR_SDK_KEY</string>
     <key>NSUserTrackingUsageDescription</key>
-    <string>Ads</string>
+    <string>This identifier will be used to deliver personalized ads/surveys to you.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

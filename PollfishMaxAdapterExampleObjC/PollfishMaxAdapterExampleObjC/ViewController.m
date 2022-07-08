@@ -7,8 +7,6 @@
 
 #import "ViewController.h"
 #import <AppLovinSDK/AppLovinSDK.h>
-#import <AppTrackingTransparency/AppTrackingTransparency.h>
-#import <AdSupport/AdSupport.h>
 
 @interface ViewController ()<MARewardedAdDelegate>
 @property (weak, nonatomic) IBOutlet UIButton *showRewardedAdButton;
@@ -20,12 +18,29 @@
 
 NSString *const adUnitid = @"YOUR_AD_ID";
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
     
-    [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+    if (@available(iOS 14, *)) {
+        [self requestIDFAPermission];
+    } else {
         [self createRewardedAd];
-    }];
+    }
+}
+
+- (void)requestIDFAPermission {
+#if __has_include(<AppTrackingTransparency/AppTrackingTransparency.h>)
+    if (@available(iOS 14, *)) {
+        [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [self createRewardedAd];
+            });
+        }];
+    } else {
+        // Fallback on earlier versions
+    }
+#endif
 }
 
 - (IBAction)showRewardedAd:(id)sender {

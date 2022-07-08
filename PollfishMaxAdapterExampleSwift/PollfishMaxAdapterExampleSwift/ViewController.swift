@@ -8,7 +8,9 @@
 import UIKit
 import AdSupport
 import AppLovinSDK
+#if canImport(AppTrackingTransparency)
 import AppTrackingTransparency
+#endif
 
 class ViewController: UIViewController, MARewardedAdDelegate {
     let adUnitId = "YOUR_AD_UNIT"
@@ -18,11 +20,23 @@ class ViewController: UIViewController, MARewardedAdDelegate {
     
     @IBOutlet weak var showRewardedAdButton: UIButton!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        ATTrackingManager.requestTrackingAuthorization { status in
-            self.createRewardedAd()
+    override func viewDidAppear(_ animated: Bool) {
+        if #available(iOS 14, *) {
+            requestIDFAPermission()
+        } else {
+            createRewardedAd()
         }
+    }
+    
+    @available(iOS 14, *)
+    func requestIDFAPermission() {
+        #if canImport(AppTrackingTransparency)
+        ATTrackingManager.requestTrackingAuthorization { status in
+            DispatchQueue.main.async {
+                self.createRewardedAd()
+            }
+        }
+        #endif
     }
     
     func createRewardedAd() {
