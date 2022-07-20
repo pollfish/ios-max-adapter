@@ -4,6 +4,6 @@ target 'PollfishMaxAdapter' do
   use_frameworks!
 
   pod 'AppLovinSDK'
-  pod 'Pollfish', '~> 6.2.6'
+  pod 'Pollfish', '~> 6.2.7'
 
 end

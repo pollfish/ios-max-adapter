@@ -211,7 +211,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		uONK8sCr0eKtYrga1ZU4aB9S3FY=
+		VALgJbiM7ztYOTKH0Vu8ZZae2H0=
 		</data>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -223,7 +223,7 @@
 		</data>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Zv+92kEYH4p/GEbMnl2zLP1YjUA=
+		lEDtRibQy7pA6FZby/I3NdddY4I=
 		</data>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -235,7 +235,7 @@
 		</data>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YM1lb6fx5MinsWpZ2HY/K6oFag8=
+		qCr56ZlcylqBkMcdXMWHJeO+R5I=
 		</data>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -247,7 +247,7 @@
 		</data>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SgfI4fQWUp2isKhVZ7oIULhJT80=
+		5kcSk/4Axlq/5HcGnx6dBunyN6o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -740,11 +740,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Zv+92kEYH4p/GEbMnl2zLP1YjUA=
+			lEDtRibQy7pA6FZby/I3NdddY4I=
 			</data>
 			<key>hash2</key>
 			<data>
-			2S7zknKsyZbByNTYFvckEcksLWw7qcdf1lAFpMHwibo=
+			1rW8eluimoefQLnJmAw3mqlIzC09DPxPoWk1kdu8/48=
 			</data>
 		</dict>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -773,11 +773,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YM1lb6fx5MinsWpZ2HY/K6oFag8=
+			qCr56ZlcylqBkMcdXMWHJeO+R5I=
 			</data>
 			<key>hash2</key>
 			<data>
-			xp4PdZTPN4GV8c25Bj9ER2h1ogT4Bp2tyzjLrVCepgY=
+			O96QJMUYhKEqqhckCto4jjqbPNchfsQG/Aw1ravyWnY=
 			</data>
 		</dict>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -806,11 +806,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SgfI4fQWUp2isKhVZ7oIULhJT80=
+			5kcSk/4Axlq/5HcGnx6dBunyN6o=
 			</data>
 			<key>hash2</key>
 			<data>
-			0XsafaRsp1phMNhjl7JLnTGODu5d6qw6QDskRw+oDU4=
+			6G4vqrzPQEu9BWNkrdtPqYCbHXtbRBqYqXp5y/sLqDg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
