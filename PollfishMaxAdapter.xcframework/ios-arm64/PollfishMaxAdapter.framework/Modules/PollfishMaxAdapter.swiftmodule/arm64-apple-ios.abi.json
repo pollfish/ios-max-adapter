@@ -1,0 +1,677 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PollfishMaxAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Pollfish",
+        "printedName": "Pollfish",
+        "declKind": "Import",
+        "moduleName": "PollfishMaxAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "PollfishMaxAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PollfishMediationAdapter",
+        "printedName": "PollfishMediationAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "adapterVersion",
+            "printedName": "adapterVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PollfishMaxAdapter@objc(cs)PollfishMediationAdapter(py)adapterVersion",
+            "mangledName": "$s18PollfishMaxAdapter0a9MediationC0C14adapterVersionSSvp",
+            "moduleName": "PollfishMaxAdapter",
+            "overriding": true,
+            "objc_name": "adapterVersion",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PollfishMaxAdapter@objc(cs)PollfishMediationAdapter(im)adapterVersion",
+                "mangledName": "$s18PollfishMaxAdapter0a9MediationC0C14adapterVersionSSvg",
+                "moduleName": "PollfishMaxAdapter",
+                "overriding": true,
+                "objc_name": "adapterVersion",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PollfishMaxAdapter@objc(cs)PollfishMediationAdapter(py)SDKVersion",
+            "mangledName": "$s18PollfishMaxAdapter0a9MediationC0C10sdkVersionSSvp",
+            "moduleName": "PollfishMaxAdapter",
+            "overriding": true,
+            "objc_name": "SDKVersion",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PollfishMaxAdapter@objc(cs)PollfishMediationAdapter(im)SDKVersion",
+                "mangledName": "$s18PollfishMaxAdapter0a9MediationC0C10sdkVersionSSvg",
+                "moduleName": "PollfishMaxAdapter",
+                "overriding": true,
+                "objc_name": "SDKVersion",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PollfishMaxAdapter@objc(cs)PollfishMediationAdapter(im)destroy",
+            "mangledName": "$s18PollfishMaxAdapter0a9MediationC0C7destroyyyF",
+            "moduleName": "PollfishMaxAdapter",
+            "overriding": true,
+            "objc_name": "destroy",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sdk:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PollfishMediationAdapter",
+                "printedName": "PollfishMaxAdapter.PollfishMediationAdapter",
+                "usr": "c:@M@PollfishMaxAdapter@objc(cs)PollfishMediationAdapter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ALSdk",
+                "printedName": "AppLovinSDK.ALSdk",
+                "usr": "c:objc(cs)ALSdk"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PollfishMaxAdapter@objc(cs)PollfishMediationAdapter(im)initWithSdk:",
+            "mangledName": "$s18PollfishMaxAdapter0a9MediationC0C3sdkACSo5ALSdkC_tcfc",
+            "moduleName": "PollfishMaxAdapter",
+            "overriding": true,
+            "objc_name": "initWithSdk:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadRewardedAd",
+            "printedName": "loadRewardedAd(for:andNotify:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAdapterResponseParameters",
+                "printedName": "AppLovinSDK.MAAdapterResponseParameters",
+                "usr": "c:objc(pl)MAAdapterResponseParameters"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MARewardedAdapterDelegate",
+                "printedName": "AppLovinSDK.MARewardedAdapterDelegate",
+                "usr": "c:objc(pl)MARewardedAdapterDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PollfishMaxAdapter@objc(cs)PollfishMediationAdapter(im)loadRewardedAdForParameters:andNotify:",
+            "mangledName": "$s18PollfishMaxAdapter0a9MediationC0C14loadRewardedAd3for9andNotifyySo27MAAdapterResponseParameters_p_So010MARewardedC8Delegate_ptF",
+            "moduleName": "PollfishMaxAdapter",
+            "objc_name": "loadRewardedAdForParameters:andNotify:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showRewardedAd",
+            "printedName": "showRewardedAd(for:andNotify:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAdapterResponseParameters",
+                "printedName": "AppLovinSDK.MAAdapterResponseParameters",
+                "usr": "c:objc(pl)MAAdapterResponseParameters"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MARewardedAdapterDelegate",
+                "printedName": "AppLovinSDK.MARewardedAdapterDelegate",
+                "usr": "c:objc(pl)MARewardedAdapterDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PollfishMaxAdapter@objc(cs)PollfishMediationAdapter(im)showRewardedAdForParameters:andNotify:",
+            "mangledName": "$s18PollfishMaxAdapter0a9MediationC0C14showRewardedAd3for9andNotifyySo27MAAdapterResponseParameters_p_So010MARewardedC8Delegate_ptF",
+            "moduleName": "PollfishMaxAdapter",
+            "objc_name": "showRewardedAdForParameters:andNotify:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(with:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MAAdapterInitializationParameters",
+                "printedName": "AppLovinSDK.MAAdapterInitializationParameters",
+                "usr": "c:objc(pl)MAAdapterInitializationParameters"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppLovinSDK.MAAdapterInitializationStatus, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(AppLovinSDK.MAAdapterInitializationStatus, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MAAdapterInitializationStatus",
+                        "printedName": "AppLovinSDK.MAAdapterInitializationStatus",
+                        "usr": "c:@E@MAAdapterInitializationStatus"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PollfishMaxAdapter@objc(cs)PollfishMediationAdapter(im)initializeWithParameters:completionHandler:",
+            "mangledName": "$s18PollfishMaxAdapter0a9MediationC0C10initialize4with17completionHandlerySo33MAAdapterInitializationParameters_p_ySo0iJ6StatusV_SSSgtctF",
+            "moduleName": "PollfishMaxAdapter",
+            "overriding": true,
+            "objc_name": "initializeWithParameters:completionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pollfishClosed",
+            "printedName": "pollfishClosed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PollfishMaxAdapter@objc(cs)PollfishMediationAdapter(im)pollfishClosed",
+            "mangledName": "$s18PollfishMaxAdapter0a9MediationC0C14pollfishClosedyyF",
+            "moduleName": "PollfishMaxAdapter",
+            "objc_name": "pollfishClosed",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pollfishOpened",
+            "printedName": "pollfishOpened()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PollfishMaxAdapter@objc(cs)PollfishMediationAdapter(im)pollfishOpened",
+            "mangledName": "$s18PollfishMaxAdapter0a9MediationC0C14pollfishOpenedyyF",
+            "moduleName": "PollfishMaxAdapter",
+            "objc_name": "pollfishOpened",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pollfishUserNotEligible",
+            "printedName": "pollfishUserNotEligible()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PollfishMaxAdapter@objc(cs)PollfishMediationAdapter(im)pollfishUserNotEligible",
+            "mangledName": "$s18PollfishMaxAdapter0a9MediationC0C23pollfishUserNotEligibleyyF",
+            "moduleName": "PollfishMaxAdapter",
+            "objc_name": "pollfishUserNotEligible",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pollfishSurveyNotAvailable",
+            "printedName": "pollfishSurveyNotAvailable()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PollfishMaxAdapter@objc(cs)PollfishMediationAdapter(im)pollfishSurveyNotAvailable",
+            "mangledName": "$s18PollfishMaxAdapter0a9MediationC0C26pollfishSurveyNotAvailableyyF",
+            "moduleName": "PollfishMaxAdapter",
+            "objc_name": "pollfishSurveyNotAvailable",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pollfishUserRejectedSurvey",
+            "printedName": "pollfishUserRejectedSurvey()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PollfishMaxAdapter@objc(cs)PollfishMediationAdapter(im)pollfishUserRejectedSurvey",
+            "mangledName": "$s18PollfishMaxAdapter0a9MediationC0C26pollfishUserRejectedSurveyyyF",
+            "moduleName": "PollfishMaxAdapter",
+            "objc_name": "pollfishUserRejectedSurvey",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pollfishSurveyCompleted",
+            "printedName": "pollfishSurveyCompleted(surveyInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SurveyInfo",
+                "printedName": "Pollfish.SurveyInfo",
+                "usr": "c:@M@Pollfish@objc(cs)SurveyInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PollfishMaxAdapter@objc(cs)PollfishMediationAdapter(im)pollfishSurveyCompletedWithSurveyInfo:",
+            "mangledName": "$s18PollfishMaxAdapter0a9MediationC0C23pollfishSurveyCompleted10surveyInfoy0A00fI0C_tF",
+            "moduleName": "PollfishMaxAdapter",
+            "objc_name": "pollfishSurveyCompletedWithSurveyInfo:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pollfishSurveyReceived",
+            "printedName": "pollfishSurveyReceived(surveyInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Pollfish.SurveyInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SurveyInfo",
+                    "printedName": "Pollfish.SurveyInfo",
+                    "usr": "c:@M@Pollfish@objc(cs)SurveyInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PollfishMaxAdapter@objc(cs)PollfishMediationAdapter(im)pollfishSurveyReceivedWithSurveyInfo:",
+            "mangledName": "$s18PollfishMaxAdapter0a9MediationC0C22pollfishSurveyReceived10surveyInfoy0A00fI0CSg_tF",
+            "moduleName": "PollfishMaxAdapter",
+            "objc_name": "pollfishSurveyReceivedWithSurveyInfo:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PollfishMaxAdapter@objc(cs)PollfishMediationAdapter",
+        "mangledName": "$s18PollfishMaxAdapter0a9MediationC0C",
+        "moduleName": "PollfishMaxAdapter",
+        "objc_name": "PollfishMediationAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)ALMediationAdapter",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "AppLovinSDK.ALMediationAdapter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PollfishDelegate",
+            "printedName": "PollfishDelegate",
+            "usr": "c:@M@Pollfish@objc(pl)PollfishDelegate",
+            "mangledName": "$s8Pollfish0A8DelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PollfishMaxAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "PollfishMaxAdapter"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 169,
+      "length": 9,
+      "value": "\"6.3.0.0\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 212,
+      "length": 7,
+      "value": "\"6.3.0\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 249,
+      "length": 10,
+      "value": "\"pollfish\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 321,
+      "length": 19,
+      "value": "\"custom_parameters\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 369,
+      "length": 9,
+      "value": "\"api_key\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 412,
+      "length": 14,
+      "value": "\"request_uuid\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 460,
+      "length": 14,
+      "value": "\"release_mode\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 510,
+      "length": 16,
+      "value": "\"offerwall_mode\""
+    }
+  ]
+}
