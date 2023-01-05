@@ -203,20 +203,13 @@ Pollfish Max Adapter provides different options that you can use to control the 
 
 <br/>
 
-```swift
-rewardedAd = MARewardedAd.shared(withAdUnitIdentifier: "AD_UNIT_ID")
-rewardedAd.setLocalExtraParameterForKey("release_mode", value: true)
-rewardedAd.setLocalExtraParameterForKey("offerwall_mode", value: true)
-rewardedAd.setLocalExtraParameterForKey("request_uuid", value: "REQUEST_UUID")
-rewardedAd.setLocalExtraParameterForKey("api_key", value: "YOUR_API_KEY")
-```
 
-| No  | Description                                                                                                                                      |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 3.1 | **`api_key`** <br/> Sets Pollfish SDK API key as provided by Pollfish                                                                            |
-| 3.2 | **`request_uuid`** <br/> Sets a unique identifier to identify a user and be passed through to [s2s callbacks](https://www.pollfish.com/docs/s2s) |
-| 3.3 | **`release_mode`** <br/> Toggles Pollfish SDK Developer or Release mode                                                                          |
-| 3.4 | **`offerwallMode`** <br/> Sets Pollfish SDK to Offerwall Mode                                                                                    |
+| No  | Configuration  | Description                                                                                                                                      |
+| --- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 3.1 | Dashboard/Code | **`api_key`** <br/> Sets Pollfish SDK API key as provided by Pollfish                                                                            |
+| 3.2 | Dashboard/Code | **`request_uuid`** <br/> Sets a unique identifier to identify a user and be passed through to [s2s callbacks](https://www.pollfish.com/docs/s2s) |
+| 3.3 | Dashboard/Code | **`release_mode`** <br/> Toggles Pollfish SDK Developer or Release mode                                                                          |
+| 3.4 | Code           | **`user_id`** <br/> Sets a unique identifier to identify a user                                                                            |
 
 <br/>
 
@@ -247,9 +240,27 @@ Pollfish Max Adapter runs Pollfish SDK in release mode by default. If you would 
 
 <br/>
 
-### 3.4 `offerwall_mode`
+### 3.4 `user_id`
 
-Enables offerwall mode. If not set, one single survey is shown each time.
+An optional id used to identify a user
+
+Setting the `userId` will override the default behaviour and use that instead of the Advertising Id in order to identify a user
+
+<span style="color: red">You can pass the id of a user as identified on your system. Pollfish will use this id to identify the user across sessions instead of an ad id/idfa as advised by the stores. You are solely responsible for aligning with store regulations by providing this id and getting relevant consent by the user when necessary. Pollfish takes no responsibility for the usage of this id. In any request from your users on resetting/deleting this id and/or profile created, you should be solely liable for those requests.</span>
+
+<br/>
+
+Below you can see all the available configuration options for Pollfish Max Adapter.
+
+<br/>
+
+```swift
+rewardedAd = MARewardedAd.shared(withAdUnitIdentifier: "AD_UNIT_ID")
+rewardedAd.setLocalExtraParameterForKey("api_key", value: "YOUR_API_KEY")
+rewardedAd.setLocalExtraParameterForKey("request_uuid", value: "REQUEST_UUID")
+rewardedAd.setLocalExtraParameterForKey("release_mode", value: true)
+rewardedAd.setLocalExtraParameterForKey("user_id", value: "USER_ID")
+```
 
 <br/>
 

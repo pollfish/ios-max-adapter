@@ -622,7 +622,7 @@
       "kind": "StringLiteral",
       "offset": 169,
       "length": 9,
-      "value": "\"6.3.1.0\""
+      "value": "\"6.3.1.1\""
     },
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishConstants.swift",
@@ -669,9 +669,9 @@
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishConstants.swift",
       "kind": "StringLiteral",
-      "offset": 510,
-      "length": 16,
-      "value": "\"offerwall_mode\""
+      "offset": 503,
+      "length": 9,
+      "value": "\"user_id\""
     }
   ]
 }

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name                  = 'PollfishMaxAdapter'
-    s.version               = '6.3.1.0'
+    s.version               = '6.3.1.1'
     s.summary               = 'Pollfish iOS Adapter for AppLovin Max Mediation'
     s.module_name           = 'PollfishMaxAdapter'
     s.description           = 'Adapter for publishers looking to use AppLovin Max mediation to load and show Rewarded Surveys from Pollfish in the same waterfall with other Rewarded Ads.'

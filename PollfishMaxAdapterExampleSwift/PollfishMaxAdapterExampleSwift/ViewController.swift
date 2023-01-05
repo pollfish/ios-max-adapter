@@ -13,7 +13,7 @@ import AppTrackingTransparency
 #endif
 
 class ViewController: UIViewController, MARewardedAdDelegate {
-    let adUnitId = "YOUR_AD_UNIT"
+    let adUnitId = "YOUR_AD_UNIT_ID"
     
     var rewardedAd: MARewardedAd!
     var retryAttempt = 0.0
@@ -44,15 +44,14 @@ class ViewController: UIViewController, MARewardedAdDelegate {
         
         // Optional parameters, if have already been set in the AppLovin dashboard
         // In case you've already set them in the Dashboard, params in code will override the ones you've already set
-        rewardedAd.setLocalExtraParameterForKey("release_mode", value: false)
-        rewardedAd.setLocalExtraParameterForKey("offerwall_mode", value: true)
+        rewardedAd.setLocalExtraParameterForKey("api_key", value: "API_KEY")
         rewardedAd.setLocalExtraParameterForKey("request_uuid", value: "REQUEST_UUID")
-        rewardedAd.setLocalExtraParameterForKey("api_key", value: "YOUR_API_KEY")
+        rewardedAd.setLocalExtraParameterForKey("release_mode", value: false)
+        rewardedAd.setLocalExtraParameterForKey("user_id", value: "USER_ID")
         
         rewardedAd.delegate = self
         rewardedAd.load()
         showRewardedAdButton.isEnabled = false
-        print(ASIdentifierManager.shared().advertisingIdentifier.uuidString)
     }
 
     @IBAction func onRewardedAdClick(_ sender: Any) {

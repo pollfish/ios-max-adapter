@@ -8,7 +8,7 @@
 import Foundation
 
 struct Constants {
-    static let version = "6.3.1.0"
+    static let version = "6.3.1.1"
     static let pollfishVersion = "6.3.1"
     static let networkName = "pollfish"
     
@@ -17,6 +17,6 @@ struct Constants {
         static let apiKey = "api_key"
         static let requestUUID = "request_uuid"
         static let releaseMode = "release_mode"
-        static let offerwallMode = "offerwall_mode"
+        static let userId = "user_id"
     }
 }

@@ -15,13 +15,13 @@ public class PollfishMediationAdapter: ALMediationAdapter, MARewardedAdapter {
     
     public override var adapterVersion: String {
         get {
-            return Constants.version
+            Constants.version
         }
     }
     
     public override var sdkVersion: String {
         get {
-            return Constants.pollfishVersion
+            Constants.pollfishVersion
         }
     }
     
@@ -57,13 +57,13 @@ public class PollfishMediationAdapter: ALMediationAdapter, MARewardedAdapter {
         if let releaseMode = adapterInfo.releaseMode {
             params.releaseMode(releaseMode)
         }
-
-        if let offerwallMode = adapterInfo.offerwallMode {
-            params.offerwallMode(offerwallMode)
-        }
         
         if let requestUUID = adapterInfo.requestUUID {
             params.requestUUID(requestUUID)
+        }
+
+        if let userId = adapterInfo.userId {
+            params.userId(userId)
         }
         
         params.platform(Platform.max)

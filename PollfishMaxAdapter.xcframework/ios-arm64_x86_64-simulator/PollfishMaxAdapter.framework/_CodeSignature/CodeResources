@@ -207,51 +207,51 @@
 		</dict>
 		<key>Headers/PollfishMaxAdapter-Swift.h</key>
 		<data>
-		aIzg1gPinkX90AdHw1fX2jT9FRE=
+		898HsOVFv/juyqnpItXY1KGIoHw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VDSe7SPWuXw3jpq5u/m8x0Ee8Z8=
+		HAqqRe1IuGqZH+1w682T4a+7nK8=
 		</data>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		eF7had949CBPkJxBmCM/r5EE3gg=
+		vX0UrbJNSyP0pAbLwfCS3AWuetc=
 		</data>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		IpnLhEFVFH2F3Fr500r5j3+UafU=
+		e/llmrd9q+upmBURXUC5dk4RUCo=
 		</data>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		EBzdBoMKftuyfgrKrkG6gSdamNk=
+		ug4tAZSFd4G8qZlNU2Q+3Y7WvOA=
 		</data>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		IpnLhEFVFH2F3Fr500r5j3+UafU=
+		e/llmrd9q+upmBURXUC5dk4RUCo=
 		</data>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BzFx59kcxrBnAkX3B+gv6/5uP4s=
+		xfPQwRF0+R391p6hKxXGABc9qMs=
 		</data>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		eF7had949CBPkJxBmCM/r5EE3gg=
+		vX0UrbJNSyP0pAbLwfCS3AWuetc=
 		</data>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		lZXz6eM2Z8wJLhhX/79Yn9Sp9zA=
+		F215nnzJmFGCGKXY1BGCPp8QIlQ=
 		</data>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		mUDmrnYosmNYUeUvpAXRPhmgN0I=
+		Hnu1qe2h9UqCdnfECKb2Puw1GKg=
 		</data>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		lZXz6eM2Z8wJLhhX/79Yn9Sp9zA=
+		F215nnzJmFGCGKXY1BGCPp8QIlQ=
 		</data>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		55PqyUGIbyY2i11cPC5mT5aEzMQ=
+		TXxaBd2/KCzIO479nIpUanbkU1Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -711,121 +711,121 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aIzg1gPinkX90AdHw1fX2jT9FRE=
+			898HsOVFv/juyqnpItXY1KGIoHw=
 			</data>
 			<key>hash2</key>
 			<data>
-			dfoPHDFmOhdhMEukTFpiYzJjiM7Wa0FwZdPCWTrFjf4=
+			7viR5/pQOl8UN2WSfeu2bmFnAVH+XDa98CwEbfuKY3Y=
 			</data>
 		</dict>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eF7had949CBPkJxBmCM/r5EE3gg=
+			vX0UrbJNSyP0pAbLwfCS3AWuetc=
 			</data>
 			<key>hash2</key>
 			<data>
-			YPM0B5DNMcEYv+Pf5sEN9n5xCeMQYmCXX7ppMDQYdDQ=
+			+B34rlri20N5ML78Po0EvSDr/0eeI548kW2eBD0Ta7k=
 			</data>
 		</dict>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IpnLhEFVFH2F3Fr500r5j3+UafU=
+			e/llmrd9q+upmBURXUC5dk4RUCo=
 			</data>
 			<key>hash2</key>
 			<data>
-			JHmw+9pFOO5zVlYZL9WdFBGsS0fKl8FmpWmxQH+GNCQ=
+			pLZshmotJUC71DuiAHDMjU/ALgTcEvVK1kEUe0CeFkQ=
 			</data>
 		</dict>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EBzdBoMKftuyfgrKrkG6gSdamNk=
+			ug4tAZSFd4G8qZlNU2Q+3Y7WvOA=
 			</data>
 			<key>hash2</key>
 			<data>
-			/MQZGLQuxRFUAkho1deHinDyAxA1hyt7TjvcKopHKEk=
+			RX4lom5rrhw3pSDjjb4JXmFMra6YDBP54erWv7PX8gE=
 			</data>
 		</dict>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IpnLhEFVFH2F3Fr500r5j3+UafU=
+			e/llmrd9q+upmBURXUC5dk4RUCo=
 			</data>
 			<key>hash2</key>
 			<data>
-			JHmw+9pFOO5zVlYZL9WdFBGsS0fKl8FmpWmxQH+GNCQ=
+			pLZshmotJUC71DuiAHDMjU/ALgTcEvVK1kEUe0CeFkQ=
 			</data>
 		</dict>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BzFx59kcxrBnAkX3B+gv6/5uP4s=
+			xfPQwRF0+R391p6hKxXGABc9qMs=
 			</data>
 			<key>hash2</key>
 			<data>
-			Tg/KuE4YXO1zLU1AMc/yZLRvCnUwUSwGUiwrU5bt4VM=
+			0A3kwsuL43vJ5RsdDuxVTBWUvx/J3vzYQmTt+9BaubI=
 			</data>
 		</dict>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eF7had949CBPkJxBmCM/r5EE3gg=
+			vX0UrbJNSyP0pAbLwfCS3AWuetc=
 			</data>
 			<key>hash2</key>
 			<data>
-			YPM0B5DNMcEYv+Pf5sEN9n5xCeMQYmCXX7ppMDQYdDQ=
+			+B34rlri20N5ML78Po0EvSDr/0eeI548kW2eBD0Ta7k=
 			</data>
 		</dict>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lZXz6eM2Z8wJLhhX/79Yn9Sp9zA=
+			F215nnzJmFGCGKXY1BGCPp8QIlQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			0X5VmHrGOOtYRSAia0JuJMG0s0cjaJUKEGSj2fb+vQg=
+			3kYjzkJlOZEOEvyoge8bKPRCAOsZE4hdfm/smWuOJbg=
 			</data>
 		</dict>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mUDmrnYosmNYUeUvpAXRPhmgN0I=
+			Hnu1qe2h9UqCdnfECKb2Puw1GKg=
 			</data>
 			<key>hash2</key>
 			<data>
-			zLowKvLLxc7EHD5GDyZIw5qPiZwfrt5GGLsl17boBzs=
+			7F+NDTEV2zNL44bMTe6xQLGg7v39OZpP1Q/0G89wDE4=
 			</data>
 		</dict>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lZXz6eM2Z8wJLhhX/79Yn9Sp9zA=
+			F215nnzJmFGCGKXY1BGCPp8QIlQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			0X5VmHrGOOtYRSAia0JuJMG0s0cjaJUKEGSj2fb+vQg=
+			3kYjzkJlOZEOEvyoge8bKPRCAOsZE4hdfm/smWuOJbg=
 			</data>
 		</dict>
 		<key>Modules/PollfishMaxAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			55PqyUGIbyY2i11cPC5mT5aEzMQ=
+			TXxaBd2/KCzIO479nIpUanbkU1Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			NoxpCfN7YbQLzkbTduLQ77/F1uyB9KYGNZI8+lksUHU=
+			G4WrQM98UEpHqsmfIH0puv0mjLOmaB7uevj7hSZGKKI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

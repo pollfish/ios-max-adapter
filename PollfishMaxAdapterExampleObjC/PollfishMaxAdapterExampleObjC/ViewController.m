@@ -16,7 +16,7 @@
 
 @implementation ViewController
 
-NSString *const adUnitid = @"YOUR_AD_ID";
+NSString *const adUnitid = @"YOUR_AD_UNIT_ID";
 
 - (void)viewWillAppear:(BOOL)animated
 {
@@ -55,10 +55,10 @@ NSString *const adUnitid = @"YOUR_AD_ID";
     
     // Optional parameters, if have already been set in the AppLovin dashboard
     // In case you've already set them in the Dashboard, params in code will override the ones you've already set
-    [self.rewardedAd setLocalExtraParameterForKey:@"release_mode" value:[NSNumber numberWithBool:NO]];
-    [self.rewardedAd setLocalExtraParameterForKey:@"offerwall_mode" value:[NSNumber numberWithBool:TRUE]];
-    [self.rewardedAd setLocalExtraParameterForKey:@"request_uuid" value:@"REQUEST_UUID"];
     [self.rewardedAd setLocalExtraParameterForKey:@"api_key" value:@"YOUR_API_KEY"];
+    [self.rewardedAd setLocalExtraParameterForKey:@"request_uuid" value:@"REQUEST_UUID"];
+    [self.rewardedAd setLocalExtraParameterForKey:@"release_mode" value:[NSNumber numberWithBool:NO]];
+    [self.rewardedAd setLocalExtraParameterForKey:@"user_id"value:@"USER_ID"];
     
     self.rewardedAd.delegate = self;
     [self.rewardedAd loadAd];
