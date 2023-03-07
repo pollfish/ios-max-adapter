@@ -53,7 +53,7 @@ public class PollfishMediationAdapter: ALMediationAdapter, MARewardedAdapter {
         }
         
         let params = PollfishParams(adapterInfo.apiKey).rewardMode(true)
-            
+        
         if let releaseMode = adapterInfo.releaseMode {
             params.releaseMode(releaseMode)
         }
@@ -61,9 +61,13 @@ public class PollfishMediationAdapter: ALMediationAdapter, MARewardedAdapter {
         if let requestUUID = adapterInfo.requestUUID {
             params.requestUUID(requestUUID)
         }
-
+        
         if let userId = adapterInfo.userId {
             params.userId(userId)
+        }
+        
+        if let surveyFormatInt = adapterInfo.surveyFormat, let surveyFormat = SurveyFormat(rawValue: surveyFormatInt) {
+            params.surveyFormat(surveyFormat)
         }
         
         params.platform(Platform.max)

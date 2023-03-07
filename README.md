@@ -209,7 +209,7 @@ Pollfish Max Adapter provides different options that you can use to control the 
 | 3.1 | Dashboard/Code | **`api_key`** <br/> Sets Pollfish SDK API key as provided by Pollfish                                                                            |
 | 3.2 | Dashboard/Code | **`request_uuid`** <br/> Sets a unique identifier to identify a user and be passed through to [s2s callbacks](https://www.pollfish.com/docs/s2s) |
 | 3.3 | Dashboard/Code | **`release_mode`** <br/> Toggles Pollfish SDK Developer or Release mode                                                                          |
-| 3.4 | Code           | **`user_id`** <br/> Sets a unique identifier to identify a user                                                                            |
+| 3.4 | Code           | **`user_id`** <br/> Sets a unique identifier to identify a user                                                                                  |
 
 <br/>
 

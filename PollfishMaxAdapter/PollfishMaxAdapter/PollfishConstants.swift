@@ -8,8 +8,8 @@
 import Foundation
 
 struct Constants {
-    static let version = "6.3.1.1"
-    static let pollfishVersion = "6.3.1"
+    static let version = "6.4.0.0"
+    static let pollfishVersion = "6.4.0"
     static let networkName = "pollfish"
     
     struct ExtraKey {
@@ -18,5 +18,6 @@ struct Constants {
         static let requestUUID = "request_uuid"
         static let releaseMode = "release_mode"
         static let userId = "user_id"
+        static let surveyFormat = "survey_format"
     }
 }

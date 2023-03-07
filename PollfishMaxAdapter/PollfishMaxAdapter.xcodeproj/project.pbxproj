@@ -323,7 +323,7 @@
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 9;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 984ZRM32BG;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -339,7 +339,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 6.3.1.1;
+				MARKETING_VERSION = 6.4.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pollfish.mediation.PollfishMaxAdapter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = NO;
@@ -357,7 +357,7 @@
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 9;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 984ZRM32BG;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -373,7 +373,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 6.3.1.1;
+				MARKETING_VERSION = 6.4.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pollfish.mediation.PollfishMaxAdapter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = NO;
