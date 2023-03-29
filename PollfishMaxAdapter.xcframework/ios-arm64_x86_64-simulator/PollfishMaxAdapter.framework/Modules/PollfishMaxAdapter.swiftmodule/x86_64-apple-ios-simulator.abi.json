@@ -622,14 +622,14 @@
       "kind": "StringLiteral",
       "offset": 169,
       "length": 9,
-      "value": "\"6.4.0.0\""
+      "value": "\"6.4.1.0\""
     },
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishConstants.swift",
       "kind": "StringLiteral",
       "offset": 212,
       "length": 7,
-      "value": "\"6.4.0\""
+      "value": "\"6.4.1\""
     },
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishConstants.swift",

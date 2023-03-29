@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name                  = 'PollfishMaxAdapter'
-    s.version               = '6.4.0.0'
+    s.version               = '6.4.1.0'
     s.summary               = 'Pollfish iOS Adapter for AppLovin Max Mediation'
     s.module_name           = 'PollfishMaxAdapter'
     s.description           = 'Adapter for publishers looking to use AppLovin Max mediation to load and show Rewarded Surveys from Pollfish in the same waterfall with other Rewarded Ads.'
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
     s.vendored_frameworks   = 'PollfishMaxAdapter.xcframework'
 
-    s.dependency 'Pollfish', '= 6.4.0'
+    s.dependency 'Pollfish', '= 6.4.1'
     s.dependency 'AppLovinSDK'
 
     s.pod_target_xcconfig =
