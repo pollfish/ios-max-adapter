@@ -622,14 +622,14 @@
       "kind": "StringLiteral",
       "offset": 169,
       "length": 9,
-      "value": "\"6.4.1.0\""
+      "value": "\"6.4.2.0\""
     },
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishConstants.swift",
       "kind": "StringLiteral",
       "offset": 212,
       "length": 7,
-      "value": "\"6.4.1\""
+      "value": "\"6.4.2\""
     },
     {
       "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishConstants.swift",
@@ -679,6 +679,97 @@
       "offset": 547,
       "length": 15,
       "value": "\"survey_format\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishMediationAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1097,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishMediationAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1498,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishMaxAdapterInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 397,
+      "length": 163,
+      "value": "\"{api_key: \""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishMaxAdapterInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 417,
+      "length": 1,
+      "value": "\", release_mode: \""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishMaxAdapterInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 450,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishMaxAdapterInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 456,
+      "length": 1,
+      "value": "\", request_uuid: \""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishMaxAdapterInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 506,
+      "length": 1,
+      "value": "\", survey_format: \""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishMaxAdapterInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 558,
+      "length": 1,
+      "value": "\"}\""
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishMaxAdapterInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1641,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishMaxAdapterInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2550,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishMaxAdapterInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2554,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishMaxAdapterInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2732,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fotismitropoulos\/Pollfish\/Repos\/ios-max-adapter\/PollfishMaxAdapter\/PollfishMaxAdapter\/PollfishMaxAdapterInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2736,
+      "length": 1,
+      "value": "4"
     }
   ]
 }
